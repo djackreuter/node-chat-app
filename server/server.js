@@ -30,4 +30,4 @@ io.on('connection', (socket) => {
 });
 
 
-server.listen(3000, () => console.log(`Started server on port ${port}...`));
+server.listen(port, () => console.log(`Started server on port ${port}...`));
